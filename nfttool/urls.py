@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('top_collections/<int:count>', get_collections),
     path('top_collections_by_day/<int:days>', get_collections_by_days),
+    path('collection_details/<str:collection_name>', get_collection_details)
 ]
