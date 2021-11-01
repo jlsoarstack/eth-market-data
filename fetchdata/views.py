@@ -63,4 +63,4 @@ def get_collection_details(request,collection_name):
     for i in range(len(sorted_list)):
         data[i] = sorted_list[i]
 
-    return JsonResponse(final_list)
+    return JsonResponse(data)
